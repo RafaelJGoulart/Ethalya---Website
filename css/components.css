@@ -1,0 +1,57 @@
+header{
+    background-color: #262626;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1228px;
+}
+
+
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #0a0a0a;
+    width: 64px;
+    height: 32px;
+}
+
+footer {
+    background-color: #262626; /* Cor de fundo */
+    padding: 20px 0; /* Espaçamento interno */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    width: 100%;
+    height: 128px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os ícones */
+}
+
+.footer-container a {
+    display: inline-block;
+    width: 32px; /* Tamanho dos ícones */
+    height: 32px;
+    transition: transform 0.3s ease-in-out; /* Transição suave no hover */
+}
+
+.footer-container a img {
+    width: 100%;
+    height: 100%;
+    transition: filter 0.3s ease-in-out; /* Transição suave no hover */
+}
+
+
+.footer-container a:hover {
+    transform: scale(1.1); /* Leve aumento no hover */
+}

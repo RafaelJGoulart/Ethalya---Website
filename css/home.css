@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    color: #f3f3f3;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: #f3f3f3;
+    padding: 24px;
+    text-align: center;
+}
+
+.ethalya_logo {
+    height: 300px;
+    margin: 50px 0px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto 0px auto;
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0a0a0a;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+
+li:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cap {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0a0a0a;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-container a img{
+    width: 32px;
+    height: 32px;
+}
+
+.footer-container a:hover {
+    transform: scale(1.1);
+}

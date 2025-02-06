@@ -1,0 +1,71 @@
+/* Configuração geral */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a0a0a;
+}
+
+.folha {
+    margin: 32px 0px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Corpo */
+.corpo {
+    width: 700px;
+    position: relative;
+    /* Necessário para o pseudo-elemento */
+    display: flex;
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: flex-start;
+    /* Alinha o conteúdo ao topo */
+    box-sizing: border-box;
+    /* Inclui o padding no cálculo do tamanho */
+    overflow: hidden;
+    /* Garante que partes quebradas não apareçam */
+}
+
+.repeater {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    /* Coloca o fundo atrás do conteúdo */
+    background: url("../assets/images/meio.png") repeat-y;
+    background-size: 700px auto;
+    /* Ajusta a largura ao corpo */
+}
+
+/* Texto */
+.texto {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.topo {
+    width: 700px;
+    height: 100px;
+    background: url("../assets/images/topo.png") no-repeat center center;
+}
+
+.fundo {
+    width: 700px;
+    height: 100px;
+    background: url("../assets/images/fundo.png") no-repeat center bottom;
+}
+
+main {
+    min-height: 100vh;
+}
